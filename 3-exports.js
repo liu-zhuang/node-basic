@@ -3,5 +3,10 @@ const person = {
 	age: 18
 }
 
-module.exports.person = person;
+module.exports = person;
+
+
 // exports.person = person;
+
+
+module.exports.worker = {type: 'worker'};
